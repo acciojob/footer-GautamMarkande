@@ -1,1 +1,25 @@
 /* your code here */
+body{
+	background:black;
+	color:white;
+}
+.top{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.logo-details{
+	width:50%
+}
+span{
+	font-size:90px;
+	padding-bottom:10px;
+}
+.media-icons{
+	display:flex;
+	justfiy-content:center;
+	align-items:center;
+	padding:0px;
+	gap:25px;
+	width:5;
+}
