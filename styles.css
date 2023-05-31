@@ -2,14 +2,22 @@
 body{
 	background:black;
 	color:white;
+	font-family:arial;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	text-align:left;
 }
 .top{
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
+	gap:150px;
 }
 .logo-details{
-	width:50%
+	width:5;
 }
 span{
 	font-size:90px;
@@ -19,7 +27,32 @@ span{
 	display:flex;
 	justfiy-content:center;
 	align-items:center;
-	padding:0px;
+	padding:20px;
 	gap:25px;
 	width:5;
+}
+.links, .other-services,.contact,.services{
+	display:flex;
+	flex-direction:column;
+	width:20%;
+	text-aligns:left;
+	padding-left:20px;
+	text-align:left;
+}
+.links{
+	margin-left:30px
+}
+.contact{
+	margin-right:30px;
+}
+hr{
+	margin-left:0;
+	margin-top:1px;
+}
+.link-boxes{
+	display:flex;
+	justfiy-content:space-evenly;
+	gap:50px;
+	margin-left:55px;
+	margin-top:50px;
 }
